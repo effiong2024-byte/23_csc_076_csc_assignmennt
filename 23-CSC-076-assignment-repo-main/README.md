@@ -1,5 +1,5 @@
-# IFARA LEO VINCENT 
-# 23/CSC/126
+# EFFIONG DAVID EMMANUEL
+# 23/CSC/076
 # CSC 282
 # Registration system
 
@@ -11,13 +11,13 @@
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd leo_system
+   cd david_system
    ```
 
 2. **Create a MySQL database**:
-   Create a database named `leo-system` and a table named `leo_records` with the following structure:
+   Create a database named `david_system` and a table named `david_records` with the following structure:
    ```sql
-   CREATE TABLE leo_records (
+   CREATE TABLE david_records (
        id INT AUTO_INCREMENT PRIMARY KEY,
        full_name VARCHAR(100) NOT NULL,
        email VARCHAR(100) NOT NULL,
